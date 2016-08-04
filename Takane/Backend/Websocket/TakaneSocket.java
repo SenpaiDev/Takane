@@ -80,7 +80,7 @@ public class TakaneSocket extends WebSocketAdapter implements WebSocketListener 
         JSONObject jsonObject = new JSONObject(text);
         int op = jsonObject.getInt("op");
         if (jsonObject.has("s") && !jsonObject.isNull("s"))
-            reps = jsonObject.getInt("s");dd
+            reps = jsonObject.getInt("s");
         logger.log("[WS] -> "+jsonObject);
         switch (op){
             case 10:
