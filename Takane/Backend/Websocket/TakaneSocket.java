@@ -82,7 +82,7 @@ public class TakaneSocket extends WebSocketAdapter implements WebSocketListener 
         if (jsonObject.has("s") && !jsonObject.isNull("s"))
             reps = jsonObject.getInt("s");
         logger.log("[WS] -> "+jsonObject);
-        switch (op){ddd
+        switch (op){
             case 10:
                 hearthBeatThread = new HearthBeatThread(jsonObject.getJSONObject("d").getLong("heartbeat_interval"), this);
                 hearthBeatThread.start();
