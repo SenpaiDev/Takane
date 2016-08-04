@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.neovisionaries:nv-websocket-client:1.29" type="repository">
+    <properties maven-id="com.neovisionaries:nv-websocket-client:1.29" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/nv-websocket-client-1.29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
